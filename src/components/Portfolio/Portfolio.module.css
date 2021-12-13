@@ -1,0 +1,66 @@
+.Portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Theme {
+text-align: center;
+font-size: 30px;
+margin:45px 0 15px 0;
+}
+.sentence {
+  text-align: center;
+  margin:0 0 30px 0;
+}
+.bar {
+  display:flex;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.Filter {
+  display: flex;
+  height: 35%;
+  font-family:sans-serif;
+  font-style: normal;
+  line-height: 25px;
+  border:9px rgb(39, 167, 94) solid;
+  color:white;
+  background-color:  rgb(39, 167, 94);
+  margin:10px;
+  
+}
+.Filter:hover {
+  border:9px rgb(55, 155, 98) solid;
+  background-color:   rgb(55, 155, 98);
+}
+.Filter:active {
+  border:9px rgb(44, 126, 79) solid;
+  background-color:  rgb(44, 126, 79);
+}
+.menus {
+display:flex;
+flex-wrap: wrap;
+width: 100%;
+padding-bottom: 20px;
+justify-content: center;
+}
+.menu {
+  width: 50%;
+  cursor: pointer;
+  transition: .5s all ease;
+}
+.icon {
+display: flex;
+padding-bottom: 20px;
+width:25%;
+justify-content: center;
+}
+.menu:hover {
+transform: scale(1.1);
+}
+
+@media (max-width:768px) {
+  .bar {
+flex-wrap: wrap;
+  }
+  }

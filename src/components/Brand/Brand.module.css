@@ -1,0 +1,46 @@
+.Brand {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-image: url(../Photos/data/people.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Tag {
+  color:white;
+  font-size: 90px;
+  font-weight: 200;
+
+}
+.Text {
+  color:white;
+  margin:45px 0 45px 0;
+  text-align: center;
+}
+.Button_learn {
+  font-weight: 600;
+  color:white;
+  border: 13px  solid;
+  border-color:  rgb(39, 167, 94);
+  background-color: rgb(39, 167, 94);
+  cursor: pointer;
+  margin-bottom: 45px;
+}
+.pointer {
+  height: 45px;
+  width: 45px;
+  cursor: pointer;
+}
+.great {
+  font-weight: 600;
+}
+@media (max-width:768px) {
+  .Tag  {
+    font-size: 45px;
+  }  
+  .Text {
+    padding:20px;
+  }
+  }

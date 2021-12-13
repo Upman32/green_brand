@@ -1,0 +1,84 @@
+.About_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: seagreen;
+  padding-bottom: 20px;
+}
+.tag {
+  text-align: center;
+font-size: 30px;
+margin:45px 0 15px 0;
+}
+.sentence {
+  text-align: center;
+  margin:0 0 30px 0;
+}
+.profiles{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.profile {
+  text-align: center;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+}
+.avatar {
+  display:flex;
+  background-image: url(../Photos/data/Karaster_Flore.png) ;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px; }
+ .avatar2 {
+  background-image: url(../Photos/data/Ellie_Smith.png) ;
+  }
+  .avatar3 {
+    background-image: url(../Photos/data/Dmitry_Vachovski.png) ;
+  }
+.social {
+    display:none;
+  align-items: center;  
+  background-color: seagreen;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 7px;
+  }
+  .social_icon {
+   padding: 3px;
+  }
+.avatar:hover .social {
+display: flex;
+  }
+
+.profession {
+  padding-bottom: 20px;
+font-style:oblique;
+}
+.desc {
+  flex-wrap: wrap;
+}
+
+
+@media (max-width:1200px) {
+  .profile {
+margin:20px;
+width: 30%;
+  }  }
+  @media (max-width:768px) {
+    .profiles {
+     flex-direction: column; 
+    align-items: center;
+    }  
+    .profile {
+    width:70%;
+    height:370px;
+    }
+    }
+      

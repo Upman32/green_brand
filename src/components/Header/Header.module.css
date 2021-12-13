@@ -1,0 +1,50 @@
+.header {
+  height: 90px;
+  display: flex;
+justify-content:space-between;
+}
+.Logo {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Logo_tags {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 15px;
+}
+.Logo_name {
+  font-weight: 600;
+  font-size: 25px;
+}
+.top_right_bar {
+  margin-right: 40px;
+  display:flex;
+  align-items: center;
+}
+.element {
+  height: 35%;
+  display: flex;
+  font-family:sans-serif;
+  font-style: normal;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: rgba(5, 12, 66, 1);
+  border:9px white solid;
+  margin:10px;
+  transition: .3s all ease;
+}
+.element:hover {
+  border-color: rgb(39, 167, 94);
+color:white;
+background-color:  rgb(39, 167, 94);
+cursor: pointer;
+}
+@media (max-width:768px) {
+  .Logo_tags {
+   display:none
+  }  
+  }
