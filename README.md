@@ -3,15 +3,15 @@
 This project build on react, there you will see line of blocks with using css 
 ## Instruction to use this Application
 
-git clone https://github.com/Upman32/green_brand.git
+`git clone https://github.com/Upman32/green_brand.git`
 
-cd green_brand
+`cd green_brand`
 
-npm i 
+`npm i`
 
 after installation node_modules you can start project!
 
-npm start
+`npm start`
 ## Available Scripts
 
 In the project directory, you can run:
